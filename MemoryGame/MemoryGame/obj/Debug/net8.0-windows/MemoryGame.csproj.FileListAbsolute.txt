@@ -24,3 +24,5 @@ C:\Users\balan\MemoryGame\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\refint\
 C:\Users\balan\MemoryGame\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\MemoryGame.pdb
 C:\Users\balan\MemoryGame\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\MemoryGame.genruntimeconfig.cache
 C:\Users\balan\MemoryGame\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\ref\MemoryGame.dll
+C:\Users\balan\MemoryGame\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\Views\StatisticsView.g.cs
+C:\Users\balan\MemoryGame\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\Views\StatisticsView.baml

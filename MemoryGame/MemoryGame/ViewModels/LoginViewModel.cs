@@ -20,7 +20,7 @@ namespace MemoryGame.ViewModels
 
         public LoginViewModel()
         {
-            _userService = new UserService();
+            _userService = UserService.Instance;
             Users = new ObservableCollection<User>(_userService.GetUsers());
 
             AddUserCommand = new RelayCommand(AddUser, CanAddUser);

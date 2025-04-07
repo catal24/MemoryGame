@@ -1,6 +1,8 @@
 [
   {
     "Username": "catal",
-    "ProfileImagePath": "C:\\Users\\balan\\Downloads\\colorImage.jpg"
+    "ProfileImagePath": "C:\\Users\\balan\\Downloads\\colorImage.jpg",
+    "GamesPlayed": 2,
+    "GamesWon": 1
   }
 ]

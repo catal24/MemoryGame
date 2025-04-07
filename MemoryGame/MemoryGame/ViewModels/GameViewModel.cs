@@ -5,6 +5,8 @@ using System.Windows.Threading;
 using System.Linq;
 using MemoryGame.Commands;
 using MemoryGame.Models;
+using MemoryGame.Services;
+using MemoryGame.Views;
 using System.Windows;
 using Microsoft.Win32;
 using System.IO;
@@ -16,6 +18,7 @@ namespace MemoryGame.ViewModels
     {
         private readonly DispatcherTimer _timer;
         private readonly User _currentUser;
+        private readonly UserService _userService;
         private ObservableCollection<Tile> _tiles;
         private int _boardRows;
         private int _boardColumns;
@@ -30,6 +33,7 @@ namespace MemoryGame.ViewModels
         public GameViewModel(User currentUser)
         {
             _currentUser = currentUser;
+            _userService = UserService.Instance;
             _tiles = new ObservableCollection<Tile>();
             _boardRows = 4;
             _boardColumns = 4;
@@ -107,6 +111,19 @@ namespace MemoryGame.ViewModels
         public ICommand TileClickCommand { get; }
         public ICommand ShowAboutCommand { get; }
 
+        private void CheckGameWon()
+        {
+            if (Tiles.All(t => t.IsMatched))
+            {
+                _timer.Stop();
+                // Update statistics for win
+                _currentUser.GamesPlayed++;
+                _currentUser.GamesWon++;
+                _userService.UpdateUser(_currentUser);
+                MessageBox.Show("Congratulations! You've won the game!", "Game Won", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
         private void Timer_Tick(object? sender, EventArgs e)
         {
             _timeRemaining = _timeRemaining.Subtract(TimeSpan.FromSeconds(1));
@@ -115,8 +132,10 @@ namespace MemoryGame.ViewModels
             if (_timeRemaining <= TimeSpan.Zero)
             {
                 _timer.Stop();
+                // Update statistics for loss
+                _currentUser.GamesPlayed++;
+                _userService.UpdateUser(_currentUser);
                 MessageBox.Show("Time's up! Game Over!", "Game Over", MessageBoxButton.OK, MessageBoxImage.Information);
-                // TODO: Save statistics
             }
         }
 
@@ -270,7 +289,8 @@ namespace MemoryGame.ViewModels
 
         private void ShowStatistics(object? parameter)
         {
-            // TODO: Show statistics window
+            var statisticsView = new StatisticsView();
+            statisticsView.ShowDialog();
         }
 
         private void Exit(object? parameter)
@@ -333,12 +353,7 @@ namespace MemoryGame.ViewModels
                     _canSelectTile = true;
 
                     // Check if game is won
-                    if (Tiles.All(t => t.IsMatched))
-                    {
-                        _timer.Stop();
-                        MessageBox.Show("Congratulations! You won!", "Game Won", MessageBoxButton.OK, MessageBoxImage.Information);
-                        // TODO: Save statistics
-                    }
+                    CheckGameWon();
                 }
                 else
                 {

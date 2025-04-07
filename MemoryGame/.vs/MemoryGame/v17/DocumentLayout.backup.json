@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "MemoryGame\\ViewModels\\GameViewModel.cs",
               "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\ViewModels\\GameViewModel.cs",
               "RelativeToolTip": "MemoryGame\\ViewModels\\GameViewModel.cs",
-              "ViewState": "AgIAAFYBAAAAAAAAAAAuwHYBAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAgwH0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T08:52:34.908Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "MemoryGame\\Views\\GameView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:52:31.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T08:52:31.021Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "MemoryGame\\Services\\UserService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:52:26.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T08:52:26.417Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Views\\GameView.xaml",
               "RelativeToolTip": "MemoryGame\\Views\\GameView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-07T08:51:56.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T08:51:56.594Z"
             },
             {
               "$type": "Document",
@@ -103,10 +100,9 @@
               "RelativeDocumentMoniker": "MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
               "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
               "RelativeToolTip": "MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAlwDMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAlwDIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:11:22.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T08:11:22.544Z"
             },
             {
               "$type": "Document",
@@ -117,8 +113,7 @@
               "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\MainWindow.xaml",
               "RelativeToolTip": "MemoryGame\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-07T07:45:32.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T07:45:32.144Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\App.xaml",
               "RelativeToolTip": "MemoryGame\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-07T07:45:27.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T07:45:27.454Z"
             }
           ]
         }
