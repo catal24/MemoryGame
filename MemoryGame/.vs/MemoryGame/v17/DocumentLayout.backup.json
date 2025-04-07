@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|c:\\users\\balan\\memorygame\\memorygame\\memorygame\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|solutionrelative:memorygame\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|c:\\users\\balan\\memorygame\\memorygame\\memorygame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|solutionrelative:memorygame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|c:\\users\\balan\\memorygame\\memorygame\\memorygame\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|solutionrelative:memorygame\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|c:\\users\\balan\\memorygame\\memorygame\\memorygame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeToolTip": "MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAlwDIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:11:22.544Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -33,11 +50,12 @@
               "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\MainWindow.xaml",
               "RelativeToolTip": "MemoryGame\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-07T07:45:32.144Z"
+              "WhenOpened": "2025-04-07T07:45:32.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "MemoryGame\\Views\\LoginView.xaml",
@@ -49,14 +67,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\App.xaml",
               "RelativeDocumentMoniker": "MemoryGame\\App.xaml",
               "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\App.xaml",
               "RelativeToolTip": "MemoryGame\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-07T07:45:27.454Z"
+              "WhenOpened": "2025-04-07T07:45:27.454Z",
+              "EditorCaption": ""
             }
           ]
         }

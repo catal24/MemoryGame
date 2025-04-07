@@ -11,11 +11,16 @@
   <ItemGroup>
     <Folder Include="Commands\" />
     <Folder Include="Data\" />
-    <Folder Include="Resources\" />
     <Folder Include="Models\" />
+    <Folder Include="Resources\Images\Category2\" />
+    <Folder Include="Resources\Images\Category3\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Services\" />
     <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\**\*.png" />
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,8 @@ using Microsoft.Win32;
 using MemoryGame.Commands;
 using MemoryGame.Models;
 using MemoryGame.Services;
+using System.Windows;
+using MemoryGame.Views;
 
 namespace MemoryGame.ViewModels
 {
@@ -100,7 +102,16 @@ namespace MemoryGame.ViewModels
 
         private void Play(object? parameter)
         {
-            // TODO: Navigate to game view
+            if (SelectedUser != null)
+            {
+                var gameView = new GameView(SelectedUser);
+                gameView.Show();
+                if (Application.Current.MainWindow is Window mainWindow)
+                {
+                    mainWindow.Close();
+                }
+                Application.Current.MainWindow = gameView;
+            }
         }
 
         private void BrowseImage(object? parameter)
