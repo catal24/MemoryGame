@@ -1,0 +1,106 @@
+{
+  "Username": "catal",
+  "SelectedCategory": "Category1",
+  "Tiles": [
+    {
+      "Id": 2,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image2.png",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "Id": 3,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image3.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 0,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image0.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 5,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image5.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 4,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image4.png",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "Id": 1,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image1.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 5,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image5.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 3,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image3.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 0,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image0.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 7,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image7.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 1,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image1.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 6,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image6.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 6,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image6.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "Id": 2,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image2.png",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "Id": 4,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image4.png",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "Id": 7,
+      "FrontImage": "pack://application:,,,/MemoryGame;component/Resources/Images/Category1/image7.png",
+      "IsFlipped": false,
+      "IsMatched": false
+    }
+  ],
+  "BoardRows": 4,
+  "BoardColumns": 4,
+  "TimeRemaining": "00:04:43",
+  "SaveTime": "2025-04-07T11:51:05.9990902+03:00"
+}

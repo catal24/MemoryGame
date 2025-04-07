@@ -171,29 +171,100 @@ namespace MemoryGame.ViewModels
 
         private void OpenGame(object? parameter)
         {
-            var openFileDialog = new OpenFileDialog
+            try
             {
-                Filter = "Game files (*.json)|*.json",
-                InitialDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "games")
-            };
+                // Look for user's save file
+                var saveFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "games", $"{_currentUser.Username}_save.json");
+                
+                if (!File.Exists(saveFilePath))
+                {
+                    MessageBox.Show("No saved game found.", "Load Game", MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
 
-            if (openFileDialog.ShowDialog() == true)
+                // Load and deserialize the game state
+                var json = File.ReadAllText(saveFilePath);
+                var gameState = JsonSerializer.Deserialize<GameState>(json);
+
+                if (gameState == null || gameState.Username != _currentUser.Username)
+                {
+                    MessageBox.Show("Invalid save file.", "Load Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
+                // Restore game state
+                _timeRemaining = gameState.TimeRemaining;
+                BoardRows = gameState.BoardRows;
+                BoardColumns = gameState.BoardColumns;
+                SelectedCategory = gameState.SelectedCategory;
+
+                var tiles = new ObservableCollection<Tile>();
+                var backImage = "pack://application:,,,/MemoryGame;component/Resources/Images/back.png";
+                var matchedImage = "pack://application:,,,/MemoryGame;component/Resources/Images/matched.png";
+
+                foreach (var tileState in gameState.Tiles)
+                {
+                    var tile = new Tile(tileState.Id, tileState.FrontImage, backImage, matchedImage)
+                    {
+                        IsFlipped = tileState.IsFlipped,
+                        IsMatched = tileState.IsMatched
+                    };
+                    tiles.Add(tile);
+                }
+
+                Tiles = tiles;
+                OnPropertyChanged(nameof(TimeRemaining));
+
+                // Start timer if game is not finished
+                if (!Tiles.All(t => t.IsMatched) && _timeRemaining > TimeSpan.Zero)
+                {
+                    _timer.Start();
+                }
+
+                MessageBox.Show("Game loaded successfully!", "Load Game", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex)
             {
-                // TODO: Implement game loading
+                MessageBox.Show($"Error loading game: {ex.Message}", "Load Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private void SaveGame(object? parameter)
         {
-            var saveFileDialog = new SaveFileDialog
+            // Create game state
+            var gameState = new GameState
             {
-                Filter = "Game files (*.json)|*.json",
-                InitialDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "games")
+                Username = _currentUser.Username,
+                SelectedCategory = SelectedCategory,
+                BoardRows = BoardRows,
+                BoardColumns = BoardColumns,
+                TimeRemaining = _timeRemaining,
+                SaveTime = DateTime.Now,
+                Tiles = Tiles.Select(t => new TileState
+                {
+                    Id = t.Id,
+                    FrontImage = t.FrontImage,
+                    IsFlipped = t.IsFlipped,
+                    IsMatched = t.IsMatched
+                }).ToList()
             };
 
-            if (saveFileDialog.ShowDialog() == true)
+            try
             {
-                // TODO: Implement game saving
+                // Create the games directory if it doesn't exist
+                var gamesDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "games");
+                Directory.CreateDirectory(gamesDirectory);
+
+                // Save to user-specific file (overwriting previous save)
+                var saveFilePath = Path.Combine(gamesDirectory, $"{_currentUser.Username}_save.json");
+                var json = JsonSerializer.Serialize(gameState, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(saveFilePath, json);
+
+                MessageBox.Show("Game saved successfully!", "Save Game", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error saving game: {ex.Message}", "Save Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -298,10 +369,10 @@ namespace MemoryGame.ViewModels
         {
             MessageBox.Show(
                 "Memory Game\n\n" +
-                "Student: [Your Name]\n" +
-                "Email: [Your Institutional Email]\n" +
-                "Group: [Your Group Number]\n" +
-                "Specialization: [Your Specialization]",
+                "Student: Balan Catalin Ioan\n" +
+                "Email: catalin-ioan.balan@student.unitbv.ro\n" +
+                "Group: 10LF231\n" +
+                "Specialization: Computer Science",
                 "About",
                 MessageBoxButton.OK,
                 MessageBoxImage.Information

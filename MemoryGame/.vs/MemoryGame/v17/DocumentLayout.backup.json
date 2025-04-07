@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|c:\\users\\balan\\memorygame\\memorygame\\memorygame\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|solutionrelative:memorygame\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|c:\\users\\balan\\memorygame\\memorygame\\memorygame\\views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|solutionrelative:memorygame\\views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|c:\\users\\balan\\memorygame\\memorygame\\memorygame\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|solutionrelative:memorygame\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|c:\\users\\balan\\memorygame\\memorygame\\memorygame\\views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E2C8293-F77E-4FF9-8DA8-2CC8F0089742}|MemoryGame\\MemoryGame.csproj|solutionrelative:memorygame\\views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +47,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\ViewModels\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "MemoryGame\\ViewModels\\GameViewModel.cs",
+              "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\ViewModels\\GameViewModel.cs",
+              "RelativeToolTip": "MemoryGame\\ViewModels\\GameViewModel.cs",
+              "ViewState": "AgIAAFYBAAAAAAAAAAAuwHYBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:52:34.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Views\\GameView.xaml.cs",
+              "RelativeDocumentMoniker": "MemoryGame\\Views\\GameView.xaml.cs",
+              "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Views\\GameView.xaml.cs",
+              "RelativeToolTip": "MemoryGame\\Views\\GameView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:52:31.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MemoryGame\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Services\\UserService.cs",
+              "RelativeToolTip": "MemoryGame\\Services\\UserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:52:26.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameView.xaml",
+              "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Views\\GameView.xaml",
+              "RelativeDocumentMoniker": "MemoryGame\\Views\\GameView.xaml",
+              "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Views\\GameView.xaml",
+              "RelativeToolTip": "MemoryGame\\Views\\GameView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T08:51:56.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.g.cs",
               "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
               "RelativeDocumentMoniker": "MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
               "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
               "RelativeToolTip": "MemoryGame\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAlwDIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAlwDMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T08:11:22.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MemoryGame\\MainWindow.xaml",
@@ -55,19 +122,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "MemoryGame\\Views\\LoginView.xaml",
               "ToolTip": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\Views\\LoginView.xaml",
               "RelativeToolTip": "MemoryGame\\Views\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-07T07:45:29.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T07:45:29.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\balan\\MemoryGame\\MemoryGame\\MemoryGame\\App.xaml",
               "RelativeDocumentMoniker": "MemoryGame\\App.xaml",
